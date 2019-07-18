@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1093095705835",
+    "firebase_url": "https://machat-d8c95.firebaseio.com",
+    "project_id": "machat-d8c95",
+    "storage_bucket": "machat-d8c95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093095705835:android:14622db06753112e",
+        "android_client_info": {
+          "package_name": "com.divinegrace.machat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093095705835-43mlquoq66htka1vlsnka8ij11tfn51h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.divinegrace.machat",
+            "certificate_hash": "1ed94903a4455732f54d84c43bf18000a4ea129b"
+          }
+        },
+        {
+          "client_id": "1093095705835-i0s4rljnkars618hohf1ukuiq5u57fg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApTfLHzJuaSoEU2galXYTPQILoMYFMfZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093095705835-i0s4rljnkars618hohf1ukuiq5u57fg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
