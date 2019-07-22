@@ -1,14 +1,15 @@
-package com.divinegrace.machat
+package com.divinegrace.machat.registerlogin
 
 import android.app.Activity
 import android.content.Intent
-import android.graphics.drawable.BitmapDrawable
 import android.net.Uri
-import android.support.v7.app.AppCompatActivity
+//import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
-import android.util.Log
 import android.widget.Toast
+import com.divinegrace.machat.messages.LatestMessagesActivity
+import com.divinegrace.machat.R
 import kotlinx.android.synthetic.main.activity_register.*
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
@@ -136,12 +137,13 @@ class RegisterActivity : AppCompatActivity() {
         val uid = FirebaseAuth.getInstance().uid?:""
        val ref=FirebaseDatabase.getInstance().getReference("/users/$uid")
 
-     val user=User(uid,username_edittext_register.text.toString(),profileImageurl )
+     val user=
+         User(uid, username_edittext_register.text.toString(), profileImageurl)
 
         ref.setValue(user)
             .addOnSuccessListener {
                 //loaiding inten
-                val intent=Intent(this,LatestMessagesActivity::class.java)
+                val intent=Intent(this, LatestMessagesActivity::class.java)
                     //clearing views
                 intent.flags=Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
                 startActivity(intent)

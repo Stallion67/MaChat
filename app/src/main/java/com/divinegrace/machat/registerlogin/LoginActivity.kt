@@ -1,8 +1,11 @@
-package com.divinegrace.machat
+package com.divinegrace.machat.registerlogin
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+//import android.support.v7.app.AppCompatActivity
+//import android.support.v7.app.AppCompatActivit
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import com.divinegrace.machat.R
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
 
