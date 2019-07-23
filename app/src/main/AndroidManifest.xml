@@ -32,13 +32,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".registerlogin.RegisterActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+        <activity android:name=".registerlogin.RegisterActivity"/>
 
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity> <!-- Begin Login activity -->
+       <!-- Begin Login activity -->
         <activity android:name=".registerlogin.LoginActivity">
         </activity>
     </application>

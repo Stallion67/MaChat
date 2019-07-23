@@ -14,19 +14,19 @@ android:background="@android:color/white">
             android:layout_height="50dp"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/editText2"
+            android:id="@+id/edittext_chat_log"
 android:background="@android:color/white"
             android:hint="Enter Message" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/button"/>
+            app:layout_constraintEnd_toStartOf="@+id/send_button_chat_log"/>
     <Button
             android:textColor="@android:color/white"
             android:background="@drawable/rounded_button"
             android:text="Send"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:id="@+id/button" android:layout_marginBottom="8dp"
+            android:id="@+id/send_button_chat_log" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="16dp" android:textStyle="bold"/>
     <androidx.recyclerview.widget.RecyclerView
